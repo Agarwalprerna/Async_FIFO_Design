@@ -1,0 +1,30 @@
+{
+  "DESIGN_NAME": "asyncfifo",
+  "VERILOG_FILES": [
+    "dir::src/grayEncoder.sv",
+    "dir::src/asyncfifo.sv"
+  ],
+
+  "RESET_PORT": "rstn",
+  "RESET_POLARITY": "LOW",
+  "CLOCK_PORT": "wclk",
+  "CLOCK_PERIOD": 50,
+  "STA_MULTICORNER": true,
+  "EXTRA_CLOCKS":["rclk",50.0],
+  
+  
+  
+  "FP_CORE_UTIL": 40,
+  "PL_TARGET_DENSITY": 0.6,
+  
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  
+  "GRT_REPAIR_ANTENNAS": true,
+  "RUN_HEURISTIC_DIODE_INSERTION": true,
+  "DIODE_CELL": "sky130_fd_sc_hd__diode_2",
+  "DIODE_CELL_PIN": "DIODE",
+  "BASE_SDC_FILE":"dir::src/asyncfifo.sdc"
+ 
+
+
+}
