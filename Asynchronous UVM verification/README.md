@@ -153,10 +153,3 @@ xsim fifo_snapshot -gui
 - **Simulator:** Xilinx Vivado Simulator (XSim)
 - **Waveform Viewer:** Vivado Waveform Viewer (`.wcfg`)
 
-## Author
-
-**Bhavin Umatiya** — [LinkedIn](https://www.linkedin.com/in/bhavin-umatiya/) · [GitHub](https://github.com/Bhavin-umatiya)
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
