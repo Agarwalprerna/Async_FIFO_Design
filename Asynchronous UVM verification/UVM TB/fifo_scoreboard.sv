@@ -1,7 +1,7 @@
 // =============================================================================
 // File: fifo_scoreboard.sv
 // Description: UVM scoreboard — verifies data integrity across clock domains
-// Author: Bhavin Umatiya
+// 
 // =============================================================================
 
 class fifo_scoreboard extends uvm_scoreboard;
