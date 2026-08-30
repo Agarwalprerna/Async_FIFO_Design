@@ -1,7 +1,7 @@
 // =============================================================================
 // File: fifo_pkg.sv
 // Description: UVM package for Async FIFO verification environment
-// Author: Bhavin Umatiya
+// 
 // =============================================================================
 
 package fifo_pkg;
