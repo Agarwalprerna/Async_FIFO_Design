@@ -1,7 +1,7 @@
 // =============================================================================
 // File: fifo_coverage.sv
 // Description: Functional coverage for Async FIFO verification
-// Author: Bhavin Umatiya
+// 
 // =============================================================================
 
 class fifo_coverage extends uvm_subscriber #(fifo_txn);
