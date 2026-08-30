@@ -1,7 +1,7 @@
 // =============================================================================
 // File: fifo_monitor.sv
 // Description: UVM monitor — observes FIFO interface transactions passively
-// Author: Bhavin Umatiya
+//
 // =============================================================================
 
 class fifo_monitor extends uvm_monitor;
