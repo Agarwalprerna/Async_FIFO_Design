@@ -1,7 +1,7 @@
 // =============================================================================
 // File: fifo_assertions.sv
 // Description: SVA (SystemVerilog Assertions) for Async FIFO protocol checking
-// Author: Bhavin Umatiya
+// 
 // =============================================================================
 
 module fifo_assertions #(parameter DATA_WIDTH = 8, parameter ADDR_WIDTH = 4)
