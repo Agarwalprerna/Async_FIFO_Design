@@ -1,7 +1,7 @@
 // =============================================================================
 // File: fifo_txn.sv
 // Description: UVM transaction (sequence item) for Async FIFO
-// Author: Bhavin Umatiya
+//
 // =============================================================================
 
 class fifo_txn extends uvm_sequence_item;
