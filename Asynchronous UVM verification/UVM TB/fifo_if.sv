@@ -1,7 +1,7 @@
 // =============================================================================
 // File: fifo_if.sv
 // Description: Interface for Async FIFO DUT connection
-// Author: Bhavin Umatiya
+//
 // =============================================================================
 
 interface fifo_if #(parameter DATA_WIDTH = 8) (
